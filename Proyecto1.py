@@ -10,7 +10,7 @@ import pandas as pd
 import numpy as np
 import pandas as pd
 import plotly.express as px
-
+# from streamlit_option_menu import option_menu
 
 # Cargar los conjuntos de datos mensuales
 df_ene = pd.read_csv('datos_enero_2021.csv')
