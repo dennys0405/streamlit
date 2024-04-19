@@ -1,1 +1,5 @@
-re
+pandas
+numpy
+streamlit_option_menu
+streamlit
+plotly
