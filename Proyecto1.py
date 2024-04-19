@@ -15,10 +15,6 @@ st.write('[Municipalidad de Miraflores]')
 
 
 df8 = pd.read_excel('8_Monitoreo_Enero_2021.xlsx')
-df9 = pd.read_excel('9_Monitoreo_Febrero_2021.xlsx')
-df10 = pd.read_excel('10_Monitoreo_Marzo_2021.xlsx')
-df11 = pd.read_excel('11_Monitoreo_Abril_2021.xlsx')
-df12 = pd.read_excel('12_Monitoreo_Mayo_2021.xlsx')
-df13 = pd.read_excel('13_Monitoreo_Junio_2021.xlsx')
-df=pd.concat([df8, df9, df10, df11, df12, df13], axis=0, ignore_index=True)
+
+df=pd.concat([df8], axis=0, ignore_index=True)
 df
