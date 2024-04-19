@@ -12,7 +12,7 @@ import numpy as np
 st.title('Monitoreo de calidad de aire QAIRA:')
 st.write('[Municipalidad de Miraflores]')
 
-!unzip Datasets.zip
+
 df1 = pd.read_excel('Monitoreo_julio.xlsx')
 df2 = pd.read_excel('Monitoreo_agosto.xlsx')
 df3 = pd.read_excel('Monitoreo_setiembre_Bonilla.xlsx')
