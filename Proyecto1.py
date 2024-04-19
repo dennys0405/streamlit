@@ -7,7 +7,6 @@ Created on Thu Apr 18 21:29:23 2024
 
 import streamlit as st
 #from streamlit_option_menu import option_menu
-!pip install pandas
 
 import pandas as pd
 import numpy as np
